@@ -23,15 +23,27 @@ Ce projet permet de :
 ## 🗂️ Structure du projet
 
 TIvideosurveillance/
-├── main.py # Script principal
-├── anonymizer.py # Floutage/pixellisation des visages
-├── control_panel.py # Interface graphique pour les paramètres
-├── detection_utils.py # Chargement et appel de YOLOv5su
-├── tracker_utils.py # Initialisation et gestion du tracker SORT
-├── video_utils.py # Lecture vidéo, écriture, affichage
-├── zone_logger.py # Gestion des logs d'entrée/sortie
-├── zone_monitor.py # Suivi des zones d’intérêt
-├── yolov5/ # Dossier YOLOv5su (modèle + scripts nécessaires)
-├── sort/ # Dossier contenant le tracker SORT
-├── requirements.txt # Dépendances Python
-└── README.md # Ce fichier
+- main.py # Script principal
+- anonymizer.py # Floutage/pixellisation des visages
+- control_panel.py # Interface graphique pour les paramètres
+- detection_utils.py # Chargement et appel de YOLOv5su
+- tracker_utils.py # Initialisation et gestion du tracker SORT
+- video_utils.py # Lecture vidéo, écriture, affichage
+- zone_logger.py # Gestion des logs d'entrée/sortie
+- zone_monitor.py # Suivi des zones d’intérêt
+- yolov5/ # Dossier YOLOv5su (modèle + scripts nécessaires)
+- sort/ # Dossier contenant le tracker SORT
+- requirements.txt # Dépendances Python
+- README.md # Ce fichier
+
+
+---
+
+## 🛠️ Installation
+
+1. **Clone le dépôt GitHub :**
+
+```bash
+git clone https://github.com/ton-nom-utilisateur/TIvideosurveillance.git
+cd TIvideosurveillance
+
