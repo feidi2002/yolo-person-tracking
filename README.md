@@ -38,7 +38,7 @@ Edit
 bash
 Copy
 Edit
-git clone https://github.com/votre-nom/video-surveillance-anonymizer.git
+git clone https://github.com/feidi2002/yolo-person-tracking.git
 cd video-surveillance-anonymizer
 2. Install dependencies
 Create a virtual environment if desired, then run:
